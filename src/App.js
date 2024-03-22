@@ -34,7 +34,7 @@ function App() {
         prevPage = data.length - 1
       }
       return prevPage
-    })
+    }) 
   }
 
   return <main>
