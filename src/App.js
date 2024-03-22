@@ -25,7 +25,11 @@ function App() {
         })}
       </div>
       
-      {!loading && <div className="btn-container">hello world</div>}
+      {!loading && <div className="btn-container">
+        {data.map(() => {
+          
+        })}
+      </div>}
     </section>
   </main>
 }
