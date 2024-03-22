@@ -11,7 +11,9 @@ function App() {
     </div>
     <section className="followers">
       <div className="container">
-        {}
+        {data.map(() => {
+          
+        })}
       </div>
     </section>
   </main>
