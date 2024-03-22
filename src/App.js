@@ -31,7 +31,7 @@ function App() {
       
       {!loading && <div className="btn-container">
         {data.map((item, index) => {
-          return <button key={index} className='page-btn' onClick={() => handlePage(index)}>{index + 1}</button>
+          return <button key={index} className={`page-btn ${index === page ? 'active-btn' : null}`} onClick={() => handlePage(index)}>{index + 1}</button>
         })}
       </div>}
     </section>
