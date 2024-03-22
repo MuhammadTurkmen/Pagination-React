@@ -6,6 +6,10 @@ function App() {
   const [page, setPage] = useState(0)
   const [followers, setFollowers] = useState([])
 
+
+
+
+
   return <main>
     <div className="section-title">
       <h1>{loading ? 'loading...' : 'pagination'}</h1>
@@ -13,7 +17,7 @@ function App() {
     </div>
     <section className="followers">
       <div className="container">
-        {data.map((follower) => {
+        {followers.map((follower) => {
           return <Follower key={follower.id} {...follower} /> 
         })}
       </div>
