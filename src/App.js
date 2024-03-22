@@ -33,7 +33,7 @@ function App() {
       if(prevPage < 0 ) {
         prevPage = data.length - 1
       }
-      return nextPage
+      return prevPage
     })
   }
 
