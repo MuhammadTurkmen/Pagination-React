@@ -8,7 +8,7 @@ function App() {
 
 
   useEffect(() => {
-
+    setFollowers(data[page])
   }, [])
 
 
