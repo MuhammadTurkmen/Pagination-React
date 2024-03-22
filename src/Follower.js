@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Follower = () => {
+const Follower = ({avatar_url, html_url, login}) => {
   return <h2>follower component</h2>
 }
 
