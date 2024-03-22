@@ -12,7 +12,7 @@ function App() {
     <section className="followers">
       <div className="container">
         {data.map((follower) => {
-          return <Follower key={follower.id} {...follower}
+          return <Follower key={follower.id} {...follower} />
         })}
       </div>
     </section>
