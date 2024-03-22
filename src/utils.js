@@ -1,6 +1,6 @@
 const paginate = (followers) => {
     const itemPerPage = 10
-    const page  = followers.length / itemPerPage
+    const pages  = Math.ceil(followers.length / itemPerPage)
 }
 
 
