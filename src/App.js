@@ -35,7 +35,7 @@ function App() {
         })}
       </div>}
     </section>
-  </main>
+  </main> 
 }
 
 export default App
