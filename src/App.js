@@ -17,6 +17,12 @@ function App() {
   }
 
 
+  const nextPage = () => {
+    setPage(() => {
+      
+    })
+  }
+  
   return <main>
     <div className="section-title">
       <h1>{loading ? 'loading...' : 'pagination'}</h1>
