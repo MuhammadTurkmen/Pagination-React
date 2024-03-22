@@ -7,7 +7,9 @@ function App() {
   const [followers, setFollowers] = useState([])
 
 
+  useEffect(() => {
 
+  }, [])
 
 
   return <main>
