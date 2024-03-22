@@ -9,7 +9,9 @@ function App() {
       <div className="underline"></div>
     </div>
     <section className="followers">
-      <div className="contains"></div>
+      <div className="container">
+
+      </div>
     </section>
   </main>
 }
