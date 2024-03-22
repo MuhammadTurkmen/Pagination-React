@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     if(loading)return
     setFollowers(data[page])
-  }, [loading])
+  }, [loading, page])
   
   const handlePage = (index) => {
     setPage(index)
