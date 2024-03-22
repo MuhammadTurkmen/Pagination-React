@@ -26,7 +26,7 @@ function App() {
       <div className="container">
         {followers.map((follower) => {
           return <Follower key={follower.id} {...follower} /> 
-        })}
+        })} 
       </div>
       
       {!loading && <div className="btn-container">
@@ -34,7 +34,7 @@ function App() {
           return <button key={index} className={`page-btn ${index === page ? 'active-btn' : null}`} onClick={() => handlePage(index)}>{index + 1}</button>
         })}
       </div>} 
-    </section>
+    </section> 
   </main>  
 }
 
