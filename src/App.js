@@ -8,6 +8,9 @@ function App() {
       <h1>{loading ? 'loading...' : 'pagination'}</h1>
       <div className="underline"></div>
     </div>
+    <section className="followers">
+      <div className="contains"></div>
+    </section>
   </main>
 }
 
