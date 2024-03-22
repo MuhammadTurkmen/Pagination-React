@@ -24,9 +24,8 @@ function App() {
           return <Follower key={follower.id} {...follower} /> 
         })}
       </div>
-      <div className="btn-container">
-        
-      </div>
+      
+      {!loading && <div className="btn-container">hello world</div>}
     </section>
   </main>
 }
